@@ -1,0 +1,33 @@
+p{
+    color: red;
+    line-height: 30px;
+}
+h3{
+    color: black;
+}
+body{
+    text-align: center;
+    font-style: Georgia;
+
+}
+a{
+
+    text-decoration:none ;
+    color: green;
+}
+button{
+    background-color: white;
+    color: blueviolet;
+
+}
+textarea{
+    color: black;
+
+}
+.alphachannel{
+    height: 200px;
+    width: 200px;
+    color: rgba(red, 0,0 , 1);
+}
+/* LINIKING CSS FILE WITH HTML  */
+/* USING LINK TAG AND REL(RELATION) AND HREF ATTRIBUTES */

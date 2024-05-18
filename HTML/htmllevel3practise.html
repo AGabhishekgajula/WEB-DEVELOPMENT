@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="black">
+        <caption>Student information</caption>
+          
+           <tr>
+             <th rowspan="6">info</th>
+             <th rowspan="2">Name</th>
+             <th colspan="2">Address</th>
+           </tr>
+        
+           <tr>
+              <th>City</th>
+              <th>House</th>
+           </tr>
+           
+         
+            <tr>
+                <td>A</td>
+                <td>Delhi</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>B</td>
+                <td>Mumbai</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>C</td>
+                <td>Kolakata</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>D</td>
+                <td>Pune</td>
+                <td>4</td>
+            </tr>
+       
+         
+
+
+
+
+    </table>
+    <hr>
+    <form action="/server">
+        <div>
+          <label for="name"><b>Name:</b></label>
+          <input type="text" id="name">
+        </div>
+        <div>
+          <label for="sex"><b>Sex:</b></label>
+          <input type="radio" name="gender" id="sex1" value="Male">
+          <label for="sex1">Male</label>
+          <input type="radio" name="gender" id="sex2" value="Female">
+          <label for="sex2">Female</label>
+        </div>  
+        <div>
+            <label for="country"><b>country:</b></label>
+            <select name="country" id="country">
+                <option value="none" selected>select your country</option>
+                <option value="ind">india</option>
+                <option value="nep">Nepal</option>
+                <option value="can">Canada</option>
+            </select>
+        </div>
+        <div>
+            <label for="message"><b>Message:</b></label>
+            <textarea name="message" id="message" cols="50" rows="20"></textarea>
+        </div>
+        <div>
+            <input type="checkbox" name="subscribe" id="sub">
+            <label for="sub"><b>Subscribe?</b></label>
+        </div>
+        <div>
+            <button>submit</button>
+        </div>
+    </form>
+</body>
+</html>

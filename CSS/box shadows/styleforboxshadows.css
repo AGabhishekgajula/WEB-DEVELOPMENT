@@ -1,0 +1,20 @@
+body{
+    background-image: url(vinayaka.jpeg);
+    align-items: center;
+    background-size:contain;
+}
+div{
+    height: 400px;
+    width: 200px;
+    margin-top: 30%;
+    margin: 0 auto;
+    background-size: cover;
+    background-image: url(vinayaka1.avif);
+   
+}
+div:hover{
+    box-shadow: 3px 3px 12px black;
+    transition-duration: 1s;
+    
+
+}

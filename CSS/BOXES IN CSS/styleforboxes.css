@@ -1,0 +1,77 @@
+body{
+    text-align: center;
+    background-color: beige;
+}
+#abhi{
+    text-align: center;
+    height: 200px;
+    width: 500px;
+    background-color: burlywood;
+    border-radius: 10px;
+    /* border-color: black; */
+    /* border-width: 20px; */
+    /* border-style: dashed; */
+    /* border sothend */
+    border: 20px solid purple;
+    padding: 10px;
+    margin-right: 30%;
+    margin-left: 30%;
+
+}
+h1{
+    border:10px solid purple ;
+    border-top-right-radius: black;
+   border-bottom-color: black;
+   border-bottom-style: dotted;
+   border-radius: 15px;
+}
+button{
+    border-color: black;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 10px;
+}
+.practise>div{
+    height: 200px;
+    width: 70px;
+    border: 2px;
+    border-color: black;
+    border-style:solid;
+    padding: 5px;
+}
+#red{
+    background-color: red; 
+    height: 50px;
+    width: 50px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    margin: 10px;
+    
+    border-radius: 50px;
+}
+
+#yellow{
+    height: 50px;
+    width: 50px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    margin: 10px;
+     background-color: yellow;
+    border-radius: 50px;
+}
+
+#green{
+    height: 50px;
+    width: 50px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    margin: 10px;
+    background-color:green;
+    border-radius: 50px;
+}
+
+
+

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    
+        
+    <form action="/action">
+    <!-- label are used to combine two entities -->
+
+    enter your name:<input type="text" placeholder="username" name="username"><!--name or value acts as variable in the backend to access the value-->
+    <br>
+    <!-- normal approuch for label -->
+    <label >your favrouite colour
+    <input type="color" placeholder="colour" >
+    </label>
+    <!--classical approuch for label -->
+    <br>
+    <label for="time">enter yout birth time</label>
+    <input type="time" placeholder="time" id="time">
+    <div>
+    password:<input type="password" placeholder="password">
+    </div>
+    phone number:<input type="number">
+    <br>
+    <!-- buttons are three types 1.submit button 2.buttuo type 3.reset -->
+    <button type="submit">submits</button>
+    <button type="reset">clear</button>
+    <button type="button">namaste</button>
+    <!-- buttons using input tag but not recommended -->
+    <div>
+    <input type="submit">
+    <input type="button" value="hi">
+    </div>
+    
+    <hr>
+   
+        <!-- in radio button we can select only on button when they are grouped -->
+        <!-- grouping can be done by using name attribute by giving same name 
+        example in below : name=food same for all-->
+        <div>
+            <!-- check boxex can also be gouped but we can select multiple -->
+            <input type="checkbox" id="age" name="age" value="18">
+            <label for="age">I AM 18+ &1F603;</label>
+            <button type="submit">submit</button>
+
+            favrouite food items
+            <input type="checkbox" name="fooditem" id="fooditem1" value="biryani">
+            <label for="fooditem1">biryani</label>
+            <input type="checkbox" name="fooditem" id="fooditem2" value="paneer">
+            <label for="foodite2">paneer</label>
+            <input type="checkbox" name="fooditem" id="fooditem3" value="burger">
+            <label for="fooditem3">burger</label>
+        </div>
+            
+        <div>
+        
+            <input type="radio" name="food" id="foodname1" value="biryani">
+            <label for="foodname1">biryani</label>
+            <input type="radio" name="food" id="foodname2" value="paneer">
+            <label for="foodname2">paneer</label>
+            <input type="radio" name="food" id="foodname3" value="burger">
+            <label for="foodname3">burger</label>
+            <button>submit</button>
+        </div>
+        <hr>
+        <div>
+            <label for="state">select your state</label>
+            <select name="state" id="state">
+                <option value="none" selected>select your state</option>
+                <option value="telangana">telangana</option>
+                <option value="andhara">andhara</option>
+                <option value="kerala">kerala</option>
+            </select>
+        </div>
+        <hr>
+        <div>
+            <label for="age">select your age:</label>
+            <input type="range" min="0" max="18" step="2" id="age" name="age">
+        </div>
+        <hr>
+        <div>
+            <label for="feedback">please submit your feedback</label>
+            <textarea name="feedback" id="feedback" id="feedback" placeholder="enter here"></textarea>
+        </div>
+            <label for="food">please submit your feedback on food</label>
+            <textarea name="feedback on food" id="food" id="food" rows="20" cols="40" placeholder="enter here"></textarea>
+       
+    </form>
+    
+    
+
+    
+</body>
+</html>

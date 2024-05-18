@@ -1,0 +1,43 @@
+h1{
+    /* allignment depends on parent tag not on document */
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: blue overline;
+    line-height: 3;
+    /* 1 inch = 96px */
+    letter-spacing: 10px ;
+    text-decoration-color: red;
+    text-decoration-style:wavy ;
+    font-weight: 900;
+    border: solid;
+    width:50%;
+}
+h2{
+    /* right or end  */
+    /* left or start */
+    text-align: right;
+    text-decoration-color: blue;
+     text-decoration-style: dotted ;
+    text-decoration: underline;
+    font-weight: 900;
+
+}
+p{
+    text-align: justify;
+    text-decoration: overline;
+    font-family: consolas;
+    text-decoration-color: brown;
+    text-decoration-style: solid;
+     line-height:2.0;
+    /* bolder and lighter are depended on parent tag */
+    font-weight: bolder;
+}
+h3{
+    text-align: center;
+    color: gold;
+    text-decoration:  underline;
+    text-decoration-style: double;
+    text-decoration-color: aqua;
+    
+
+}

@@ -1,0 +1,47 @@
+p{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: solid;
+
+}
+.withouttransition{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    border: 2px solid black;
+}
+.withtransition{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    border: 2px solid black;
+    transition-duration:1s;
+    transition-timing-function: ease ;
+
+}
+div[id=hover]:hover{
+    background-color: aqua;
+    border-radius: 50%;
+}
+div[id=square]{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+}
+div[id=square]:hover{
+    background-color: black;
+    border-radius: 50%;
+    /* transition */
+    transition-duration: 5s;
+    transition-delay: 1s;
+    transition-timing-function:ease-in-out;
+    /* transform proprerties */
+    margin-left: 1000px;
+    transform: rotate(90deg);
+    transform:scale(1.2) ;
+    transform: translateX(1000px);
+    transform: skew(45deg);
+
+}

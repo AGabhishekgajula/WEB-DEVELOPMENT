@@ -1,0 +1,35 @@
+#outer{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    background-color: pink;
+    font-size: 20px;
+}
+#inner{
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+    /* font size adjust based on parent */
+    font-size: 1em;
+    /* padding will adjust based on self */
+    padding: 2em;
+}
+button{
+    font-size: 50px;
+    border-radius: 15px;
+    border: 5px solid green;
+    /* padding will adjust on font size */
+    /* but em valuing suffers with snowball effect */
+    padding-left: 1em;
+    padding-right: 1em;
+
+}
+/* the below code leads to snowball effect  */
+section{
+    font-size: 10px;
+}
+div{
+    /* font-size: 2em;*/
+    /* to remove the drawback of em rem was introduced */
+    font-size: 2rem;
+}

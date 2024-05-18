@@ -1,0 +1,70 @@
+**Full Stack Web Developer:** A Full Stack Web Developer is a professional skilled in both Front-End and Back-End web development. They work on creating user interfaces using HTML, CSS, and JavaScript, as well as handling server-side operations with languages like Node.js, Python, or PHP. Their expertise allows them to work on all aspects of web development, from designing user interfaces to managing databases and server logic.
+
+ **Front-End:**
+*Front-End Technologies*
+> HTML
+> CSS
+> JavaScript
+*Front-End Frameworks*
+> React
+> Angular
+> Vue.js
+> Bootstrap
+> Tailwind CSS
+
+
+**Back-End:**
+Back-End Technologies (Server Side Languages)
+> Python
+> Node.js
+> PHP
+Back-End Frameworks
+> Express.js
+> Django
+> Laravel
+
+
+**Databases:**
+> MySQL
+> MongoDB
+> PostgreSQL
+
+
+**Version Control:**
+> GitHub
+> GitLab
+> Perforce
+> Beanstalk
+> AWS CodeCommit
+
+
+**API Development:**
+> REST
+> GraphQL
+
+
+**Deployment and Hosting:**
+> Back4App
+> AWS
+> Firebase
+> Heroku
+> Cloudflare
+> Linode
+> DigitalOcean
+> Backendless
+
+
+**Testing and Debugging:**
+> Mocha
+> Jest
+> Selenium
+
+
+**Streamlining Development Workflow:**
+> Jenkins
+> GitLab
+> CircleCI
+> TeamCity
+> Travis CI
+> Buddy
+> Bamboo

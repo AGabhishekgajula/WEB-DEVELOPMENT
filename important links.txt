@@ -1,0 +1,16 @@
+UI AND UX:
+https://www.canva.com/colors/color-wheel/
+https://colorhunt.co/palettes/popular
+TYPOGRAPHY
+https://fonts.google.com/
+ICONS
+https://fonts.google.com/icons
+https://fontawesome.com/icons
+https://cdnjs.com/libraries/font-awesome
+fonts
+https://www.cssfontstack.com/
+APIS
+https://catfact.ninja/fact
+https://www.boredapi.com/api/activity
+https://icanhazdadjoke.com/slack
+www.json.org

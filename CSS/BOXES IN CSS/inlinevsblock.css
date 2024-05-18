@@ -1,0 +1,28 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: chocolate;
+    border: 2px solid black;
+    
+}
+.inline{
+    height: 200px;
+    width: 200px;
+    background-color: chocolate;
+    border: 2px solid black;
+    display: inline;
+    margin: 5px;
+}
+.inline-block{
+    height: 200px;
+    width: 200px;
+    background-color: chocolate;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 5px;
+}
+#none{
+    /* used to hide the element  */
+    display: none;
+
+}

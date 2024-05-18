@@ -1,0 +1,31 @@
+.container{
+    height: 300px;
+    width: 600px;
+    background-color:lightblue;
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: repeat(3,1fr) ;
+    /* shorthend grid gap:10px 10px * */
+   row-gap : 10px; 
+   column-gap: 10px;
+   justify-items: center;
+   align-items:center;
+   /* shorthend place-items: center; */
+   
+}
+.item{
+    width: 100px;
+    height: 50px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+
+}
+#itemone{
+    /* height: 200px;
+    width: 200px; */
+    grid-column-start: 1;
+    grid-column-end: 3;
+    /* grid-row-start: 1;
+    grid-row-end: 3; */
+}

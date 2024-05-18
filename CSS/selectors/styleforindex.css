@@ -1,0 +1,77 @@
+/* '*'is the universal selector it wil applicable for whole document*/
+/* universal selector */
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+/* element selector */
+h3{
+    color: red;
+    background-color: black;
+}
+/* id selector */
+#login{
+    background-color: aqua;
+}
+#signup{
+    background-color: chocolate;
+    color: aliceblue;
+}
+/* class selector */
+/* advantage : this can applicable for any type of tags */
+.myclass{
+    background-color: yellow;
+    color:aliceblue;
+}
+/* descendent selectors */
+span button{
+    /* applicable for direct and indirect childs*/
+    background-color: black;
+    color: aliceblue;
+}
+/* using sibling combinator */
+p+h3{
+    /* applicable for  immediate h3 that comes after p tag  */
+    text-decoration:underline;
+    text-decoration-color: brown;
+
+}
+/* child combinator */
+/* applicable for direct children only  */
+p>a{
+    background-color: rgb(143, 212, 212);
+}
+/* using  attribute selector tag */
+a[href]{
+    text-decoration: overline;
+    text-decoration-color: brown;
+}
+/* psuedo class: a key word added to a selector that
+ specifies a special state of the selected element */
+ button:hover{
+    background-color: blue;
+    color: bisque;
+ }
+ button:active{
+    background-color: white;
+    color: brown;
+ }
+ input[type=radio]:checked+label{
+    background-color:tomato;
+    font-weight: 900;
+}
+p:nth-of-type(2):hover{
+    font-weight: 900;
+
+
+}
+/* psuedo elements :firstline,firsteltter,selection*/
+p::first-letter{
+    background-color: black;
+    font-weight: 900;
+    color: aliceblue;
+}
+p::selection{
+    background-color:tomato ;
+}
+
+    
