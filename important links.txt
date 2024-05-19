@@ -14,3 +14,7 @@ https://catfact.ninja/fact
 https://www.boredapi.com/api/activity
 https://icanhazdadjoke.com/slack
 www.json.org
+npm
+https://www.npmjs.com/
+how can i work with local host api and hopscotch
+https://github.com/hoppscotch/hoppscotch/discussions/2051
