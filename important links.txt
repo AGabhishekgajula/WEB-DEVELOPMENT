@@ -18,3 +18,7 @@ npm
 https://www.npmjs.com/
 how can i work with local host api and hopscotch
 https://github.com/hoppscotch/hoppscotch/discussions/2051
+ejs
+https://ejs.co/
+tips on api
+https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/
